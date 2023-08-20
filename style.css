@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.logoNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+.logo {
+    padding: 1.25rem 6.25rem;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.navlink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 1.25rem 6.25rem;
+}
+.btnContainer, a {
+    width: 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.navlink button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.75rem 1.5rem;
+    background: none;
+    color: #E2E0E0;
+    border: none;
+    cursor: pointer;
+}
+.navlink button:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.75rem 1.5rem;
+    background: none;
+    color: #f3bf5f;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+.navlink .btnActive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #FFA500;
+    color: #FFA500;   
+}
+.navlink .btnActive:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #f3bf5f;
+    color: #f3bf5f;   
+}
