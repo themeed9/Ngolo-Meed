@@ -6,6 +6,13 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
+@media screen and (max-width: 48rem) {
+
+    
+}
+body{
+    background-color: #F5F5F5;
+}
 .logoNav{
     display: flex;
     justify-content: center;
@@ -16,8 +23,7 @@
     width: 100%;
 }
 .logo {
-    padding: 1.25rem 6.25rem;
-    width: 100%;
+    width: fit-content;
     height: auto;
     justify-content: center;
     align-items: center;
@@ -30,13 +36,12 @@
     width: 100%;
     height: auto;
     padding: 1.25rem 6.25rem;
+    
 }
 .btnContainer, a {
-    width: 0;
+    width: fit-content;
+    height: auto;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
 }
 .navlink button{
     display: flex;
@@ -47,29 +52,124 @@
     color: #E2E0E0;
     border: none;
     cursor: pointer;
+    font-weight: 300;
+    font-size: 1.0625rem;
+    text-align: center;
+    transition: opacity 0.2s ease-in-out;
 }
 .navlink button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
     padding:0.75rem 1.5rem;
+    font-weight: 300;
+    font-size: 1.0625rem;
     background: none;
-    color: #f3bf5f;
+    opacity: 0.8;
     border: none;
     cursor: pointer;
-    transition: ease-in-out;
+    text-align: center;
 }
 .navlink .btnActive{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 300;
+    font-size: 1.0625rem;
     border-bottom: 1px solid #FFA500;
     color: #FFA500;   
+    font-weight: 700;
+    text-align: center;
 }
 .navlink .btnActive:hover{
     display: flex;
     justify-content: center;
+    font-weight: 700;
+    font-size: 1.0625rem;
     align-items: center;
     border-bottom: 1px solid #f3bf5f;
-    color: #f3bf5f;   
+    color: #f3bf5f; 
+    text-align: center;  
+}
+.sus-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 6.25rem;
+    width: 100%;
+    height: auto;
+    row-gap: 1rem;
+}
+.content{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.header{
+    width: fit-content;
+    height: auto;
+    
+}
+.header h4 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #333333;
+}
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    height: auto;
+}
+.bigtext{
+    width: fit-content;
+    height: auto;
+}
+.bigtext h1 {
+    font-size: 6.25rem;
+    font-weight: 600;
+    color: #333333;
+}
+.para{
+    width: fit-content;
+    height: auto;
+}
+.para p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #5A5858;
+}
+.see-more {
+    width: fit-content;
+    height: auto;
+}
+.see-more button {
+    font-weight: 600;
+    font-size: 1.0625rem;
+    color: #333333;
+    border: none;
+    cursor: pointer;
+}
+.see-more .sBtn {
+    font-weight: 600;
+    font-size: 1.0625rem;
+    /* opacity: 0.8; */
+    color: #333333;
+    border-bottom: 1px solid #333333;
+    cursor: pointer;
+}
+.see-more .sBtn:hover {
+    font-weight: 600;
+    font-size: 1.0625rem;
+    opacity: 0.8;
+    color: #333333;
+    border-bottom: 1px solid #333333;
+    cursor: pointer;
 }
