@@ -6,10 +6,6 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
-@media screen and (max-width: 48rem) {
-
-    
-}
 body{
     background-color: #F5F5F5;
 }
@@ -27,6 +23,10 @@ body{
     height: auto;
     justify-content: center;
     align-items: center;
+}
+.logo img {
+    width: 17rem;
+    height: auto;
 }
 .navlink{
     display: flex;
@@ -62,6 +62,7 @@ body{
     justify-content: center;
     align-items: center;
     padding:0.75rem 1.5rem;
+    color: #f3bf5f;
     font-weight: 300;
     font-size: 1.0625rem;
     background: none;
@@ -96,7 +97,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 6.25rem;
+    padding: 1.8rem 6.25rem;
     width: 100%;
     height: auto;
     row-gap: 1rem;
@@ -169,7 +170,108 @@ body{
     font-weight: 600;
     font-size: 1.0625rem;
     opacity: 0.8;
-    color: #333333;
-    border-bottom: 1px solid #333333;
+    color: #f3bf5f;
+    border-bottom: 1px solid #f3bf5f;
     cursor: pointer;
+}
+.allprojects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+    overflow: hidden;
+    padding: 1rem;
+}
+.left-box-projects {
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.first-collage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+    overflow:hidden;
+}
+.first-project {
+    width: 100%;
+    height: auto;
+}
+.first-project img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.dou {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.second-project {
+    width: 100%;
+    height: auto;
+}
+.third-project {
+    width: 100%;
+    height: auto;
+}
+.dou .second-project, .third-project, img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.forth-project {
+    width: 100%;
+    height: auto;
+}
+.forth-project img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.right-box-projects {
+    width: 42%;
+    height: auto;
+}
+.dou2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    row-gap: 1rem;
+}
+.fifth-project, .sixth-project {
+    width: 100%;
+    height: auto;
+
+}
+.dou2 .fifth-project, .sixth-project, img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.com-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1.8rem 6.25rem;
+    width: 100%;
+    height: auto;
+    row-gap: 1rem;
 }
